@@ -48,4 +48,4 @@ It provides a simple, intuitive interface for both current and prospective stude
 ![Account Dashboard](DrumlineLessonWebApp/Images/Drumline_Lesson_Account_Registration.png)
 
 ### 🗓️ Lesson Schedule and Account Dashboard
-![Lesson Schedule](DrumlineLessonWebApp/Images/Drumline_Lesson_Site_Main_Page.png)
+![Lesson Schedule](DrumlineLessonWebApp/Images/Drumline_Lesson_Account_Home_Page.png)
