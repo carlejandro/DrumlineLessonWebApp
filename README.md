@@ -42,10 +42,10 @@ It provides a simple, intuitive interface for both current and prospective stude
 ## 🧩 App Design Preview
 
 ### 🏠 Main Page/Index users see first
-![Home Page](images/Drumline_Lesson_Site_Main_Page.png)
+![Home Page](Images/Drumline_Lesson_Site_Main_Page.png)
 
 ### 👤 Account Registraion
-![Account Dashboard](images/Drumline_Lesson_Account_Registration.png)
+![Account Dashboard](Images/Drumline_Lesson_Account_Registration.png)
 
 ### 🗓️ Lesson Schedule and Account Dashboard
-![Lesson Schedule](images/Drumline_Lesson_Site_Main_Page.png)
+![Lesson Schedule](Images/Drumline_Lesson_Site_Main_Page.png)
