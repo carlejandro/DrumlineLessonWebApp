@@ -1,8 +1,68 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Home";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<link rel="stylesheet" href="~/css/home.css" />
+
+<section class="hero-section">
+    <nav class="navbar">
+        <div class="nav-left">
+            <a class="nav-link" href="/">Home</a>
+            <a class="nav-link" href="#">Resources</a>
+            <a class="nav-link" asp-controller="Pricing" asp-action="Index">Pricing</a>
+            <a class="nav-link" href="#">Contact</a>
+        </div>
+
+        <div class="nav-right">
+            <a class="btn-outline" href="/Account/Login">Sign in</a>
+            <a class="btn-primary" href="/Account/Register">Register</a>
+        </div>
+    </nav>
+
+    <div class="hero-content">
+        <h1>Marching Drumline Lessons.</h1>
+        <p>Your Dreams. Your Goals. Let’s make em happen.</p>
+
+        <form class="email-form">
+            <input type="email" placeholder="you@example.com" />
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</section>
+
+<section class="why-section">
+    <div class="why-left">
+        <h2>Why Choose to learn<br />from me?</h2>
+        <p>
+            With over 8 years of experience and 3 years teaching students of all skill levels,
+            I am truly passionate about taking talent to reach their full potential.
+        </p>
+        <a class="btn-dark" href="#">Learn More</a>
+    </div>
+
+    <div class="why-right">
+        <div class="feature-card">
+            <div class="icon">$</div>
+            <div>
+                <h4>Flexible Pricing and Schedule</h4>
+                <p>I offer a variety of lesson times and prices to fit your busy schedule.</p>
+            </div>
+        </div>
+
+        <div class="feature-card">
+            <div class="icon">🎵</div>
+            <div>
+                <h4>All Age Groups</h4>
+                <p>Our lessons cater to all age groups and skill levels.</p>
+            </div>
+        </div>
+
+        <div class="feature-card">
+            <div class="icon">👥</div>
+            <div>
+                <h4>Online and In-Person Options</h4>
+                <p>Choose to learn online or in-person according to your preference.</p>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,34 @@
+﻿@model IEnumerable<DrumlineLessonWebApp.Models.PricingOption>
+
+@{
+    ViewData["Title"] = "Pricing";
+}
+
+<link rel="stylesheet" href="~/css/pricing.css" />
+
+<section class="pricing-header">
+    <h1>Pricing Plans</h1>
+    <p>Choose the lesson package that fits your goals.</p>
+</section>
+
+<section class="pricing-container">
+    @*basically cycle through each plan created in the container *@
+    @foreach (var plan in Model)
+    {
+            <div class="pricing-card @(plan.IsPopular ? "popular" : "")">
+                <h2>@plan.Title</h2>
+                <p class="description">@plan.Description</p>
+                <h3 class="price">$@plan.Price</h3>
+
+                <ul class="feature-list">
+                @foreach (var f in plan.Features.Split(","))
+                {
+                            <li>@f</li>
+                }
+                </ul>
+
+                <a href="#" class="btn-select">Choose Plan</a>
+            </div>
+    }
+
+</section>
