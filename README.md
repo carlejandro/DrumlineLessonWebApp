@@ -37,3 +37,15 @@ It provides a simple, intuitive interface for both current and prospective stude
    ```bash
    git clone https://github.com/your-username/drumline-lessons-app.git
    cd drumline-lessons-app
+
+
+## 🧩 App Design Preview
+
+### 🏠 Main Page/Index users see first
+![Home Page](DrumlineLessonWebApp/Images/Drumline_Lesson_Site_Main_Page.png)
+
+### 👤 Account Registraion
+![Account Dashboard](DrumlineLessonWebApp/Images/Drumline_Lesson_Account_Registration.png)
+
+### 🗓️ Lesson Schedule and Account Dashboard
+![Lesson Schedule](DrumlineLessonWebApp/Images/Drumline_Lesson_Account_Home_Page.png)
